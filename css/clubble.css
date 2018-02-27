@@ -1,0 +1,274 @@
+body {
+    background-image: url('../resources/bg-pattern.jpg');
+}
+
+body p {
+    font-size: 16px!important;
+}
+
+body h2 {
+    font-size: 18px!important;
+}
+
+#main-menu > .container {
+    margin: 0;
+    width: 100%;
+}
+
+#main-menu {
+    padding: 0;
+    top: 0;
+}
+
+#main-menu > .container > .row > .col-sm-12 {
+    padding-left: 0;
+}
+
+.clubble-logo {
+    max-width: 70px;
+    max-height: 70px;
+    position: absolute;
+    top: 16px;
+    left: 70px;
+    z-index: 2;
+}
+
+.logo-bg {
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+
+#main-menu {
+    background-image: url("../resources/bg-pattern.jpg");
+    background-repeat: repeat;
+}
+
+.main-menu {
+    margin: 0;
+}
+
+.main-menu nav ul li {
+    position: relative;
+}
+
+.main-menu nav ul li.active > a > .btn-hightlight, .main-menu nav ul li:hover > a > .btn-hightlight {
+    height: 50px;
+}
+
+.main-menu nav ul li a {
+    padding-top: 7px;
+}
+
+.btn-hightlight {
+    height: 0;
+
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+}
+
+.feature-image > img {
+    margin-top: 100px;
+}
+
+#feature-area p, #feature-area h1, #feature-area h2{
+    color: #e6e7e8;
+}
+
+#dj-area {
+    background-image: url('../resources/bg-pattern.jpg');
+}
+
+#dj-area p{
+    color: #e6e7e8;
+}
+
+#dj-area h2{
+    color: white;
+}
+
+#dj-area i, #feature-area i{
+    overflow: visible;
+    -webkit-text-shadow: 0px 0px 12px rgba(140,19,198,1), 0px 0px 24px rgba(140,19,198,1), 0px 0px 36px rgba(140,19,198,1), 0px 0px 48px rgba(140,19,198,1), 0px 0px 60px;
+    -moz-text-shadow: 0px 0px 12px rgba(140,19,198,1), 0px 0px 24px rgba(140,19,198,1), 0px 0px 36px rgba(140,19,198,1), 0px 0px 48px rgba(140,19,198,1), 0px 0px 60px;
+    text-shadow: 0px 0px 12px rgba(140,19,198,1), 0px 0px 24px rgba(140,19,198,1), 0px 0px 36px rgba(140,19,198,1), 0px 0px 48px rgba(140,19,198,1), 0px 0px 60px;
+}
+
+.sin-feature.fix {
+    overflow: visible;
+}
+
+.button-set {
+    width: 100%;
+}
+
+/*#beta-tester-email, #beta-tester-dj-email {*/
+.clubble-input {
+    background-color: transparent;
+    color: white;
+    /*width: 65%;*/
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.row {
+    margin-left: 0;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.contact-container, #contact-form .input-box input, #contact-form .input-box textarea {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(140,19,198,1);
+    overflow: visible;
+    -webkit-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    box-shadow: 0px 0px 32px 7px rgba(140,19,198,1), inset 0px 0px 32px 7px rgba(140,19,198,1);
+    border-radius: 3px;
+}
+
+#contact-form .input-box input, #contact-form .input-box textarea {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.home-2 .sin-info .icon {
+    overflow: visible;
+    -webkit-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.sin-info.email h3, .sin-info.email  p, .contact-area h1 {
+    color: white;
+}
+
+#beta-tester-dj-btn {
+    margin-bottom: 100px;
+}
+
+#footer-top-area {
+    background-image: url("../resources/main-bg.png");
+}
+
+#need-dj-area div {
+    overflow: visible;
+}
+
+#need-dj-area img {
+    border: 4px solid rgba(140,19,198,1);
+    overflow: visible;
+    -webkit-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    box-shadow: 0px 0px 32px 7px rgba(140,19,198,1), inset 0px 0px 32px 7px rgba(140,19,198,1);
+    border-radius: 60px;
+}
+
+#scrollUp {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(140,19,198,1);
+    overflow: visible;
+    -webkit-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+    box-shadow: 0px 0px 32px 4px rgba(140,19,198,1), inset 0px 0px 32px 1px rgba(140,19,198,1);
+    border-radius: 3px;
+}
+
+#events-promo-area {
+    background-image: url("../img/home-2/event-promo-bg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-x: -250px;
+}
+
+#events-promo-area img{
+    float: right;
+    margin-right: -55px;
+}
+
+#clubble-title {
+    margin-bottom: 0px;
+}
+
+#clubble-subtitle {
+    font-size: 48px;
+    line-height: 45px;
+}
+
+@media only screen and (max-width: 991px) {
+    #beta-tester-email, #beta-tester-dj-email {
+        width: 100%;
+    }
+
+    #dj-area .col-sm-6.col-md-3 {
+        margin-bottom: 30px;
+    }
+
+    .mobile-menu .mean-bar {
+        background: none;
+        position: relative;
+        z-index: 1;
+    }
+
+    .home-2 .mobile-menu .mean-nav {
+        background: transparent;
+
+    }
+
+    .mobile-menu .mean-nav ul li a {
+        border: 1px solid rgba(140,19,198,1);
+        overflow: visible;
+        -webkit-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+        -moz-box-shadow: 0px 0px 54px 13px rgba(140,19,198,1);
+        box-shadow: 0px 0px 32px 7px rgba(140,19,198,1), inset 0px 0px 32px 7px rgba(140,19,198,1);
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    #feature-area .title-style-2.title-line-2, #feature-area {
+        padding-bottom: 0;
+    }
+
+    #events-promo-area img{
+        margin-right: 0;
+    }
+
+    #events-promo-area a{
+        width: 100%;
+    }
+
+    #clubble-subtitle {
+        font-size: 26px;
+        line-height: 25px;
+    }
+}
+
+#nav-bar-clubble {
+    text-align: right;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    #home-area #dj-si {
+        float: none;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+
+    #home-area #dj-si {
+        float: right;
+    }
+
+}
